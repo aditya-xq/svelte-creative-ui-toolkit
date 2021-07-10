@@ -1,0 +1,29 @@
+{
+  "name": "svelte-creative-ui-toolkit",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.53.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^6.1.1",
+    "svelte": "^3.38.3"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "description": "A toolkit with creative CSS based svelte components",
+  "version": "1.0.1",
+  "dependencies": {},
+  "author": "aditya-xq",
+  "license": "MIT"
+}
