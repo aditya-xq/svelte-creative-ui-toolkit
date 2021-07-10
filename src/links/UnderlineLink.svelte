@@ -7,7 +7,7 @@
 
 <style type="text/scss">
     $color-highlighted: #7be11e;
-    $color-text: #88998
+    $color-text: #889986;
     .menu-nav-link {
         display: inline-flex;
         flex-direction: column;
