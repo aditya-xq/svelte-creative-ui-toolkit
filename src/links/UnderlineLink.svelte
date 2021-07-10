@@ -6,7 +6,8 @@
 <!-- Styling is based on https://codepen.io/alphardex/pen/NWxNyXb-->
 
 <style type="text/scss">
-    @import '../../global';
+    $color-highlighted: #7be11e;
+    $color-text: #88998
     .menu-nav-link {
         display: inline-flex;
         flex-direction: column;

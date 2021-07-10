@@ -6,7 +6,8 @@
 <!-- styling based on https://codepen.io/Xenofusuniq/pen/bGwzxpM -->
 
 <style type="text/scss">
-    @import '../../global';
+    $color-default: #22303c;
+    $color-highlighted: #7be11e;
     @mixin btn-border-drawing($color: #ccc, $hover: black, $width: 2px, $vertical: top, $horizontal: left, $duration: 0.25s) {
         box-shadow: inset 0 0 0 $width $color;
         color: $color;

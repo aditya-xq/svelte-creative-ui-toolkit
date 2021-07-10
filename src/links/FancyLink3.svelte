@@ -6,7 +6,6 @@
 <!-- styling based on https://codepen.io/jhancock532/pen/GRZrLwY -->
 
 <style type="text/scss">
-    @import '../../global';
     .link-container {
         display: inline-flex;
         flex-direction: column;

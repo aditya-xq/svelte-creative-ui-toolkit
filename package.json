@@ -9,8 +9,10 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^9.0.0",
+    "node-sass": "^5.0.0",
     "rollup": "^2.53.0",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-scss": "^3.0.0",
     "rollup-plugin-svelte": "^6.1.1",
     "svelte": "^3.38.3"
   },
@@ -22,7 +24,7 @@
     "dist"
   ],
   "description": "A toolkit with creative CSS based svelte components",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "dependencies": {},
   "author": "aditya-xq",
   "license": "MIT",
