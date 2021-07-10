@@ -25,5 +25,13 @@
   "version": "1.0.1",
   "dependencies": {},
   "author": "aditya-xq",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aditya-xq/svelte-creative-ui-toolkit"
+  },
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/aditya-xq/svelte-creative-ui-toolkit/issues"
+  }
 }
