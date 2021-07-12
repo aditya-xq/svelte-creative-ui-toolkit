@@ -23,13 +23,6 @@
     color: $color-text;
     text-decoration: none;
 
-    span {
-        overflow: hidden;
-        div {
-            transform: translateY(102%);
-        }
-    }
-
     &::after {
         position: absolute;
         content: "";

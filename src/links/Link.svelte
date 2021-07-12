@@ -1,8 +1,8 @@
-<script>
-    export let link = '';
-    export let text = '';
-    export let id = null;
-    export let style = '';
+<script lang="ts">
+    export let link: string;
+    export let text: string;
+    export let id: string;
+    export let style: string;
 </script>
 
 <style src="Link.scss">

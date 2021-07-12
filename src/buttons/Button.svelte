@@ -1,7 +1,7 @@
-<script>
-    export let buttonText = '';
+<script lang="ts">
+    export let buttonText: string;
     export let onClick;
-    export let style = '';
+    export let style: string;
 </script>
 
 <style src="Button.scss">
