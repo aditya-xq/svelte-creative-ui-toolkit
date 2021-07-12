@@ -30,7 +30,7 @@
     "dist"
   ],
   "description": "A toolkit with creative CSS based svelte components",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {},
   "author": "aditya-xq",
   "license": "MIT",

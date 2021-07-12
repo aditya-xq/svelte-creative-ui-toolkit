@@ -9,5 +9,5 @@
 
 <button
     on:click={onClick}
-    class={'btn ' + ['btn', style].filter(Boolean).join('-')}>{buttonText}
+    class={['btn', style].filter(Boolean).join('-')}>{buttonText}
 </button>
