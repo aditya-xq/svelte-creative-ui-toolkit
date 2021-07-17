@@ -103,6 +103,94 @@ $pink-shadow: #ffe3e2;
     }
 }
 
+// style = sliderbox
+// styling based on https://codepen.io/z-/pen/XPQyMo 
+.btn-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .switcher {
+        position: relative;
+        width:200px;
+        height:50px;
+        border-radius:25px;
+        margin:20px 0;
+        input {
+            appearance: none;
+            position: relative;
+            width:200px;
+            height:50px;
+            border-radius:25px;
+            background-color:$color-background;
+            outline:none;
+            &:before, &:after {
+                z-index:2;
+                position: absolute;
+                top:50%;
+                transform:translateY(-50%);
+                color:$color-highlighted;
+            }
+            &:before {
+                content: 'ON';
+                left:20px;
+            }
+            &:after {
+                content: 'OFF';
+                right:20px;
+            }
+        }
+        label {
+            z-index:1;
+            position: absolute;
+            top:10px;
+            bottom:10px;
+            border-radius:20px;
+        }
+    }
+}
+
+.switcher-sliderbox {
+    input {
+        transition:.25s -.1s;
+        &:checked {
+            background-color:$color-highlighted;
+            &:before {
+                color:$color-highlighted;
+                transition: color .5s .2s;
+            }
+            &:after {
+                color:$color-text;
+                transition: color .5s;
+            }
+            &+label {
+                left:10px;
+                right:100px;
+                background:$color-background;
+                transition: left .5s, right .4s .2s;
+            }
+        }
+        &:not(:checked) {
+            background:$color-background;
+            transition: background .5s -.1s;
+            &:before {
+                color:$color-highlighted;
+                transition: color .5s;
+            }
+            &:after {
+                color:$color-background;
+                transition: color .5s .2s;
+            }
+            &+label {
+                left:100px;
+                right:10px;
+                background:$color-highlighted;
+                transition: left .4s .2s, right .5s, background .35s -.1s;
+            }
+        }
+    }
+}
+
 // styling based on https://codepen.io/hilwat/pen/BeemVX
 $borderW: 2px;
 .blob-btn {
