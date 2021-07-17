@@ -1,0 +1,19 @@
+@import '../global.scss';
+
+//styling based on https://codepen.io/flavioschneider/pen/JopZMY 
+input {    
+    width: 25%;
+    height: 5%;    
+    background-color: transparent;
+    outline: none;
+    border-color: $color-highlighted;
+    color: $color-text;
+    padding-left: 10px;
+}
+label {
+    display: block;
+    position: relative;
+    margin: 1em 0 1em 0;
+    cursor: text;
+    color: $color-highlighted;
+}
